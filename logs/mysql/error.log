@@ -290,3 +290,277 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-02-05T17:33:50.438097Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-02-06T05:13:33.048872Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38150133ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-06T07:51:48.165702Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5608020ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-06T14:32:28.068537Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15357830ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-06T19:03:39.100356Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3950763ms. The settings might not be optimal. (flushed=6 and evicted=0, during the time.)
+2020-02-07T04:29:49.657359Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-02-07T04:29:49.698590Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 207 ...
+2020-02-07T04:29:50.034310Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-02-07T04:29:50.034918Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-02-07T04:29:50.035722Z 0 [Note] InnoDB: Uses event mutexes
+2020-02-07T04:29:50.036733Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-02-07T04:29:50.037683Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-02-07T04:29:50.037988Z 0 [Note] InnoDB: Using Linux native AIO
+2020-02-07T04:29:50.043871Z 0 [Note] InnoDB: Number of pools: 1
+2020-02-07T04:29:50.055984Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-02-07T04:29:50.096469Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2020-02-07T04:29:50.127262Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-07T04:29:50.145414Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-02-07T04:29:50.243905Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-02-07T04:29:50.301939Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 4865443
+2020-02-07T04:29:50.302468Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 4865452
+2020-02-07T04:29:50.302795Z 0 [Note] InnoDB: Database was not shutdown normally!
+2020-02-07T04:29:50.303152Z 0 [Note] InnoDB: Starting crash recovery.
+2020-02-07T04:29:51.533729Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-02-07T04:29:51.534064Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-02-07T04:29:51.534415Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-02-07T04:29:51.923955Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-02-07T04:29:51.927330Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-02-07T04:29:51.927877Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-02-07T04:29:51.934771Z 0 [Note] InnoDB: Waiting for purge to start
+2020-02-07T04:29:51.996830Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 4865452
+2020-02-07T04:29:52.006977Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-02-07T04:29:52.033041Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-02-07T04:29:52.241301Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-02-07T04:29:52.242117Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-02-07T04:29:52.264176Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200207  4:29:52
+2020-02-07T04:29:52.283543Z 0 [Note] IPv6 is available.
+2020-02-07T04:29:52.286483Z 0 [Note]   - '::' resolves to '::';
+2020-02-07T04:29:52.286884Z 0 [Note] Server socket created on IP: '::'.
+2020-02-07T04:29:52.303228Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-02-07T04:29:52.509772Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.510134Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.510668Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.552747Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.560019Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.561225Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.642799Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.643110Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-07T04:29:52.907953Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-02-07T04:29:52.915968Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2020-02-07T12:34:54.613450Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4591387ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-07T16:55:52.767029Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15639028ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-07T21:18:47.017171Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8803627ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-08T08:33:09.548983Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-02-08T08:33:09.579015Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 184 ...
+2020-02-08T08:33:09.928793Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-02-08T08:33:09.929149Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-02-08T08:33:09.929349Z 0 [Note] InnoDB: Uses event mutexes
+2020-02-08T08:33:09.929565Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-02-08T08:33:09.929749Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-02-08T08:33:09.929909Z 0 [Note] InnoDB: Using Linux native AIO
+2020-02-08T08:33:09.942452Z 0 [Note] InnoDB: Number of pools: 1
+2020-02-08T08:33:09.962257Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-02-08T08:33:10.009161Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2020-02-08T08:33:10.083130Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-08T08:33:10.107704Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-02-08T08:33:10.197872Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-02-08T08:33:10.265992Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 5261062
+2020-02-08T08:33:10.267131Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 5261071
+2020-02-08T08:33:10.267405Z 0 [Note] InnoDB: Database was not shutdown normally!
+2020-02-08T08:33:10.267611Z 0 [Note] InnoDB: Starting crash recovery.
+2020-02-08T08:33:11.498243Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-02-08T08:33:11.498587Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-02-08T08:33:11.499877Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-02-08T08:33:11.748674Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-02-08T08:33:11.773341Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-02-08T08:33:11.773755Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-02-08T08:33:11.789523Z 0 [Note] InnoDB: Waiting for purge to start
+2020-02-08T08:33:11.841333Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 5261071
+2020-02-08T08:33:11.858755Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-02-08T08:33:11.864989Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-02-08T08:33:12.009562Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-02-08T08:33:12.013940Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-02-08T08:33:12.028609Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200208  8:33:12
+2020-02-08T08:33:12.043415Z 0 [Note] IPv6 is available.
+2020-02-08T08:33:12.070245Z 0 [Note]   - '::' resolves to '::';
+2020-02-08T08:33:12.071024Z 0 [Note] Server socket created on IP: '::'.
+2020-02-08T08:33:12.095048Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-02-08T08:33:12.174334Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.174681Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.174911Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.187659Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.188163Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.192453Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.307633Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.308305Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-08T08:33:12.560096Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-02-08T08:33:12.569090Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2020-02-08T12:20:04.108637Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6263458ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-08T14:12:27.889224Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1428164ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-08T17:30:20.251442Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9181ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-09T08:49:59.435509Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5615305ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-09T12:37:30.241285Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9056018ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-09T14:43:39.433218Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3028995ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-10T08:32:54.268636Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 50016477ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-10T09:24:35.443782Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6825ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-10T11:41:34.198688Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8217681ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-10T13:29:48.518543Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-02-10T13:29:48.590132Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 167 ...
+2020-02-10T13:29:49.036931Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-02-10T13:29:49.078229Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-02-10T13:29:49.080034Z 0 [Note] InnoDB: Uses event mutexes
+2020-02-10T13:29:49.081441Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-02-10T13:29:49.083005Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-02-10T13:29:49.083994Z 0 [Note] InnoDB: Using Linux native AIO
+2020-02-10T13:29:49.091610Z 0 [Note] InnoDB: Number of pools: 1
+2020-02-10T13:29:49.213967Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-02-10T13:29:49.259147Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2020-02-10T13:29:49.355847Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-10T13:29:49.382141Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-02-10T13:29:49.536050Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-02-10T13:29:49.642179Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 6706479
+2020-02-10T13:29:49.642531Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6706488
+2020-02-10T13:29:49.675861Z 0 [Note] InnoDB: Database was not shutdown normally!
+2020-02-10T13:29:49.717345Z 0 [Note] InnoDB: Starting crash recovery.
+2020-02-10T13:29:51.042947Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-02-10T13:29:51.044387Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-02-10T13:29:51.044878Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-02-10T13:29:51.520761Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-02-10T13:29:51.522862Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-02-10T13:29:51.523256Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-02-10T13:29:51.527660Z 0 [Note] InnoDB: Waiting for purge to start
+2020-02-10T13:29:51.578502Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 6706488
+2020-02-10T13:29:51.605678Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-02-10T13:29:51.643134Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-02-10T13:29:51.811186Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-02-10T13:29:51.811882Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-02-10T13:29:51.823307Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200210 13:29:51
+2020-02-10T13:29:51.870125Z 0 [Note] IPv6 is available.
+2020-02-10T13:29:51.871825Z 0 [Note]   - '::' resolves to '::';
+2020-02-10T13:29:51.872153Z 0 [Note] Server socket created on IP: '::'.
+2020-02-10T13:29:51.892545Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-02-10T13:29:52.063870Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.068670Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.127297Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.154062Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.154371Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.164231Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.236296Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.236597Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-10T13:29:52.715501Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-02-10T13:29:52.720036Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2020-02-10T14:33:23.609012Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2483643ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-10T19:07:21.899277Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10269ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-11T08:45:10.683663Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1950781ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-11T11:08:57.403424Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2255466ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-11T13:34:38.268354Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5904ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-11T14:59:57.175413Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5114890ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-12T06:14:55.448266Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42832391ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-12T12:15:58.616575Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6311166ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-13T06:13:15.293694Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42457553ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-13T14:58:07.782767Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21494635ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-14T05:49:52.529992Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39415462ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-14T07:47:42.374915Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3039760ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-14T08:11:42.262293Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6471ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-14T11:59:01.118537Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5830ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-14T12:48:47.336320Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2984171ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-15T05:30:32.211468Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38032404ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-15T08:31:46.654037Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5093ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-15T09:22:00.742105Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8945ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-15T12:16:15.089150Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10342071ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-15T18:48:47.763300Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 16250ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-16T05:52:21.917424Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39813152ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-16T07:46:15.919409Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1433959ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-16T09:21:10.223398Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2244980ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-16T12:19:24.406288Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6203329ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-17T07:45:21.238286Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 50144122ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-17T08:23:20.572961Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5038ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-17T09:00:52.239518Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2250667ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-17T11:55:27.808621Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-02-17T11:55:27.903664Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 192 ...
+2020-02-17T11:55:28.312222Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-02-17T11:55:28.312644Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-02-17T11:55:28.313056Z 0 [Note] InnoDB: Uses event mutexes
+2020-02-17T11:55:28.313278Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-02-17T11:55:28.314271Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-02-17T11:55:28.315643Z 0 [Note] InnoDB: Using Linux native AIO
+2020-02-17T11:55:28.335734Z 0 [Note] InnoDB: Number of pools: 1
+2020-02-17T11:55:28.656709Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-02-17T11:55:28.857396Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2020-02-17T11:55:28.946359Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-17T11:55:28.959722Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-02-17T11:55:29.235983Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-02-17T11:55:29.305724Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 8419040
+2020-02-17T11:55:29.306042Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 8419049
+2020-02-17T11:55:29.306263Z 0 [Note] InnoDB: Database was not shutdown normally!
+2020-02-17T11:55:29.306474Z 0 [Note] InnoDB: Starting crash recovery.
+2020-02-17T11:55:32.918461Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-02-17T11:55:32.919409Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-02-17T11:55:32.919985Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-02-17T11:55:33.260474Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-02-17T11:55:33.276214Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-02-17T11:55:33.276545Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-02-17T11:55:33.280807Z 0 [Note] InnoDB: Waiting for purge to start
+2020-02-17T11:55:33.331530Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 8419049
+2020-02-17T11:55:33.331657Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4372ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-17T11:55:33.351154Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-02-17T11:55:33.388138Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-02-17T11:55:33.562478Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200217 11:55:33
+2020-02-17T11:55:33.572549Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-02-17T11:55:33.573434Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-02-17T11:55:33.580899Z 0 [Note] IPv6 is available.
+2020-02-17T11:55:33.581830Z 0 [Note]   - '::' resolves to '::';
+2020-02-17T11:55:33.582193Z 0 [Note] Server socket created on IP: '::'.
+2020-02-17T11:55:33.628475Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-02-17T11:55:33.730931Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:33.731350Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:33.731821Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:33.739939Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:33.741246Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:33.750474Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:33.814286Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:33.815432Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T11:55:35.419509Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-02-17T11:55:35.424953Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2020-02-17T12:42:23.741390Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-02-17T12:42:24.431660Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 190 ...
+2020-02-17T12:42:31.363962Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-02-17T12:42:31.364621Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-02-17T12:42:31.364965Z 0 [Note] InnoDB: Uses event mutexes
+2020-02-17T12:42:31.365303Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-02-17T12:42:31.365595Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-02-17T12:42:31.365854Z 0 [Note] InnoDB: Using Linux native AIO
+2020-02-17T12:42:32.411445Z 0 [Note] InnoDB: Number of pools: 1
+2020-02-17T12:42:34.109761Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-02-17T12:42:34.771608Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2020-02-17T12:42:35.541336Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-17T12:42:35.565356Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-02-17T12:42:37.545079Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-02-17T12:42:38.374854Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 8419392
+2020-02-17T12:42:38.375182Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 8419401
+2020-02-17T12:42:38.375404Z 0 [Note] InnoDB: Database was not shutdown normally!
+2020-02-17T12:42:38.375629Z 0 [Note] InnoDB: Starting crash recovery.
+2020-02-17T12:42:58.816441Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-02-17T12:42:58.816942Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-02-17T12:42:58.817424Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-02-17T12:43:00.404842Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-02-17T12:43:00.414039Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-02-17T12:43:00.414376Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-02-17T12:43:00.423940Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24858ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2020-02-17T12:43:00.428213Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 8419401
+2020-02-17T12:43:00.430281Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-02-17T12:43:00.754461Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-02-17T12:43:03.104297Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200217 12:43:03
+2020-02-17T12:43:03.648074Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-02-17T12:43:03.648385Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-02-17T12:43:03.677418Z 0 [Note] IPv6 is available.
+2020-02-17T12:43:04.696062Z 0 [Note]   - '::' resolves to '::';
+2020-02-17T12:43:04.696427Z 0 [Note] Server socket created on IP: '::'.
+2020-02-17T12:43:05.214801Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-02-17T12:43:07.317338Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:07.320450Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:07.321081Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:07.658924Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:07.659282Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:08.246158Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:08.853928Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:08.854641Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2020-02-17T12:43:09.923793Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-02-17T12:43:09.943323Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2020-02-17T14:04:27.804716Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6877ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

@@ -6,3 +6,34 @@
 [05-Feb-2020 15:10:07] NOTICE: ready to handle connections
 [05-Feb-2020 17:33:34] NOTICE: fpm is running, pid 98
 [05-Feb-2020 17:33:34] NOTICE: ready to handle connections
+[06-Feb-2020 10:08:46] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[06-Feb-2020 16:01:15] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[06-Feb-2020 16:24:56] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[07-Feb-2020 04:29:42] NOTICE: fpm is running, pid 138
+[07-Feb-2020 04:29:43] NOTICE: ready to handle connections
+[08-Feb-2020 08:33:04] NOTICE: fpm is running, pid 126
+[08-Feb-2020 08:33:04] NOTICE: ready to handle connections
+[08-Feb-2020 16:33:34] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[08-Feb-2020 16:56:35] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 09:53:41] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 10:01:49] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 10:02:37] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 12:39:28] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 12:41:09] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 12:41:25] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 12:42:46] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[09-Feb-2020 12:46:00] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[10-Feb-2020 13:29:41] NOTICE: fpm is running, pid 99
+[10-Feb-2020 13:29:41] NOTICE: ready to handle connections
+[16-Feb-2020 13:37:18] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[16-Feb-2020 14:23:18] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[16-Feb-2020 15:52:23] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[16-Feb-2020 15:56:46] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[16-Feb-2020 16:33:39] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[16-Feb-2020 16:37:08] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[17-Feb-2020 08:11:04] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[17-Feb-2020 08:11:29] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[17-Feb-2020 11:55:17] NOTICE: fpm is running, pid 113
+[17-Feb-2020 11:55:17] NOTICE: ready to handle connections
+[17-Feb-2020 12:42:18] NOTICE: fpm is running, pid 149
+[17-Feb-2020 12:42:18] NOTICE: ready to handle connections
