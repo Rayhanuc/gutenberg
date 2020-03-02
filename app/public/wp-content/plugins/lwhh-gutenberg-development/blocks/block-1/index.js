@@ -10,18 +10,18 @@
         textAlign: 'center'
     };
 
-    registerBlockType ( 'lwhhgd/block-1', {
+    registerBlockType ( 'lwhhgd/hello-world', {
 
         /*
         Block Title
         */
 
-        title: __( 'LWHH Hello World' ),
+        title: __( 'হ্যালো ওয়ার্লড' ),
 
          /*
         Block description
         */
-       description: __('Hello World is a dummy block to demonstrate what are blockers to '),
+       description: __('হ্যালো ওয়ার্লড একটি যুগান্তকারি বার্তা'),
 
          /*
         Block icon

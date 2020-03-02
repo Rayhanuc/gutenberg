@@ -37,3 +37,15 @@
 [17-Feb-2020 11:55:17] NOTICE: ready to handle connections
 [17-Feb-2020 12:42:18] NOTICE: fpm is running, pid 149
 [17-Feb-2020 12:42:18] NOTICE: ready to handle connections
+[18-Feb-2020 17:33:04] NOTICE: Terminating ...
+[18-Feb-2020 17:33:04] NOTICE: exiting, bye-bye!
+[19-Feb-2020 07:20:28] NOTICE: fpm is running, pid 91
+[19-Feb-2020 07:20:28] NOTICE: ready to handle connections
+[02-Mar-2020 15:14:55] NOTICE: fpm is running, pid 117
+[02-Mar-2020 15:14:55] NOTICE: ready to handle connections
+[02-Mar-2020 15:24:07] WARNING: [pool www] child 163 exited on signal 15 (SIGTERM) after 551.780443 seconds from start
+[02-Mar-2020 15:24:07] NOTICE: [pool www] child 3617 started
+[02-Mar-2020 15:24:08] NOTICE: Terminating ...
+[02-Mar-2020 15:24:08] NOTICE: exiting, bye-bye!
+[02-Mar-2020 10:45:03] NOTICE: fpm is running, pid 121
+[02-Mar-2020 10:45:03] NOTICE: ready to handle connections
